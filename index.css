@@ -1,0 +1,81 @@
+/* Style for the header and navigation */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #333;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Animated image styles */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.animated-image {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards, moveUp 2s ease-in-out forwards;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Move-up animation */
+@keyframes moveUp {
+    0% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Additional header and footer styling */
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: #f7ce68;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #12192c;
+    color: white;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .animated-image {
+        width: 100%;
+    }
+}
