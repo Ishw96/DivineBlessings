@@ -12,7 +12,7 @@ document.getElementById("admin-login-form").addEventListener("submit", (e) => {
     // Validate credentials
     if (username === ADMIN_USERNAME && password === ADMIN_PASSWORD) {
         // Redirect to admin dashboard
-        window.location.href = "./admin.html";
+        window.location.href = "/admin.html";
     } else {
         // Show error message
         const errorMessage = document.getElementById("error-message");
