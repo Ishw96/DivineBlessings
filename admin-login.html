@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="css/admin-login.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Logo and Navigation -->
+    <div class="logo">
+        <img src="logo.jpeg" alt="Astrology Logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="products.html" >Products</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="admin-login.html" class="active">Admin Login</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Admin Login</h1>
+    </header>
+    <main>
+        <form id="admin-login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            
+            <button type="submit">Login</button>
+        </form>
+        <p id="error-message" style="color: red; display: none;">Invalid username or password!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Astrology World</p>
+    </footer>
+    <script src="js/admin-login.js"></script>
+</body>
+</html>
