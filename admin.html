@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="mbutton.js"></script>
 </head>
 <body>
     <!-- Logo and Navigation -->
@@ -12,12 +13,13 @@
         <img src="logo.jpeg" alt="Astrology Logo">
     </div>
     <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about_us.html">About Us</a></li>
-            <li><a href="products.html" >Products</a></li>
-            <li><a href="contact_us.html">Contact Us</a></li>
-            <li><a href="admin-login.html" class="active">Admin Login</a></li>
+            <li><a href="./index.html" >Home</a></li>
+            <li><a href="./about_us.html" >About Us</a></li>
+            <li><a href="./products.html" >Products</a></li>
+            <li><a href="./contact_us.html" >Contact Us</a></li>
+            <li><a href="./admin-login.html" class="active">Admin Login</a></li>
         </ul>
     </nav>
     <header>
@@ -44,6 +46,6 @@
     <footer>
         <p>&copy; 2024 Astrology World</p>
     </footer>
-    <script src="admin.js"></script>
+    <script src="js/admin.js"></script>
 </body>
 </html>
