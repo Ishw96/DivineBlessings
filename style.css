@@ -5,9 +5,15 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+/*     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #1e1f29, #2a2b3c);
     color: #fff;
+    line-height: 1.6; */
+     font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #1e1f29, #2a2b3c); */
+    background: linear-gradient(white, green);
+    color: black; /* Ensures text is readable */
+    /* color: #130f0f; */
     line-height: 1.6;
 }
 /* General Reset */
