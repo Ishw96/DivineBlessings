@@ -161,11 +161,12 @@ main {
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
-    background: rgba(0, 0, 0, 0.8);
+/*     background: rgba(0, 0, 0, 0.8); */
+    background: linear-gradient(white, green);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    color: #fff;
+    color: #020202;
 }
 
 .about-content h2 {
